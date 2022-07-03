@@ -24,7 +24,6 @@ var barksToRemove = [
     <item:immersive_weathering:forbidden_arcanus/edelwood_bark>,
     <item:immersive_weathering:forbidden_arcanus/fungyss_bark>,
     <item:immersive_weathering:forbidden_arcanus/mysterywood_bark>,
-    <item:immersive_weathering:integrateddynamics/menril_bark>,
     <item:immersive_weathering:jungle_bark>,
     <item:immersive_weathering:nethers_exoticism/ramboutan_bark>,
     <item:immersive_weathering:nourished_end/cerulean_bark>,
