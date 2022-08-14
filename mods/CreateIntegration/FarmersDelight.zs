@@ -102,6 +102,103 @@ import mods.create.DeployerApplicationManager;
     null, 
     200
 );
+
+<recipetype:create:mixing>.addRecipe("vegetable_soup_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:vegetable_soup>], 
+    [<tag:items:forge:vegetables/carrot>, <tag:items:forge:vegetables/potato>, <tag:items:forge:vegetables/beetroot>, <tag:items:forge:salad_ingredients/cabbage>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("fish_stew_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:fish_stew>], 
+    [<tag:items:forge:raw_fishes>, <item:farmersdelight:tomato_sauce>, <tag:items:forge:vegetables/onion>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("ratatouille_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:ratatouille>], 
+    [<tag:items:forge:vegetables/tomato>, <tag:items:forge:vegetables/onion>, <tag:items:forge:vegetables/beetroot>, <tag:items:forge:vegetables>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("fried_rice_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:fried_rice>], 
+    [<tag:items:forge:grain/rice>, <tag:items:balm:eggs>, <tag:items:forge:vegetables/carrot>, <tag:items:forge:vegetables/onion>, <tag:items:forge:crops/corn>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("pumpkin_soup_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:pumpkin_soup>], 
+    [<item:farmersdelight:pumpkin_slice>, <tag:items:forge:crops/cabbage>, <tag:items:forge:raw_pork>, <item:minecraft:bowl>], 
+    [<fluid:minecraft:milk> * 250], 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("baked_cod_stew_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:baked_cod_stew>], 
+    [<tag:items:forge:raw_fishes/cod>, <tag:items:balm:eggs>, <tag:items:forge:vegetables/potato>, <tag:items:forge:vegetables/tomato>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("noodle_soup_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:noodle_soup>], 
+    [<tag:items:forge:pasta/raw_pasta>, <tag:items:forge:cooked_eggs>, <item:minecraft:dried_kelp>, <tag:items:forge:raw_pork>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("pasta_with_meatballs_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:pasta_with_meatballs>], 
+    [<item:farmersdelight:minced_beef>, <tag:items:forge:pasta/raw_pasta>, <item:farmersdelight:tomato_sauce>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("pasta_with_mutton_chop_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:pasta_with_mutton_chop>], 
+    [<tag:items:forge:raw_mutton>, <tag:items:forge:pasta/raw_pasta>, <item:farmersdelight:tomato_sauce>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("vegetable_noodles_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:vegetable_noodles>], 
+    [<tag:items:forge:vegetables/carrot>, <item:minecraft:brown_mushroom>, <tag:items:forge:pasta/raw_pasta>, <tag:items:forge:crops/cabbage>, <tag:items:forge:vegetables>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("squid_ink_pasta_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:squid_ink_pasta>], 
+    [<tag:items:forge:raw_fishes>, <tag:items:forge:pasta/raw_pasta>, <tag:items:forge:vegetables/tomato>, <item:minecraft:ink_sac>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("stuffed_pumpkin_block_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:stuffed_pumpkin_block>], 
+    [<tag:items:forge:grain/rice>, <tag:items:forge:vegetables>, <item:farmersdelight:tomato_sauce>, <item:minecraft:baked_potato>, 
+        <item:farmersdelight:brown_mushroom_colony>, <item:minecraft:sweet_berries>, <item:minecraft:pumpkin>], 
+    null, 
+    200
+);
 //Spout (filler) recipes
 <recipetype:create:filling>.addRecipe("hot_cocoa_from_spout", <item:farmersdelight:hot_cocoa>, <item:minecraft:glass_bottle>, <fluid:create:chocolate> * 250, 200);
 
