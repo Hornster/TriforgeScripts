@@ -199,6 +199,86 @@ import mods.create.DeployerApplicationManager;
     null, 
     200
 );
+
+<recipetype:create:mixing>.addRecipe("dog_food_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersdelight:dog_food>], 
+    [<tag:items:forge:grain/rice>, <item:minecraft:bone_meal>, <item:minecraft:rotten_flesh>, <tag:items:farmersdelight:wolf_prey>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("green_tea_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersrespite:green_tea>], 
+    [<item:farmersrespite:green_tea_leaves> * 2, <item:minecraft:glass_bottle>], 
+    [<fluid:minecraft:water> * 250], 
+    2000
+);
+
+<recipetype:create:mixing>.addRecipe("yellow_tea_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersrespite:yellow_tea>], 
+    [<item:farmersrespite:yellow_tea_leaves> * 2, <item:minecraft:glass_bottle>], 
+    [<fluid:minecraft:water> * 250], 
+    2000
+);
+
+<recipetype:create:mixing>.addRecipe("black_tea_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersrespite:black_tea>], 
+    [<item:farmersrespite:black_tea_leaves> * 2, <item:minecraft:glass_bottle>], 
+    [<fluid:minecraft:water> * 250], 
+    2000
+);
+
+<recipetype:create:mixing>.addRecipe("rose_hip_tea_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersrespite:rose_hip_tea>], 
+    [<item:farmersrespite:rose_hips> * 2, <item:minecraft:glass_bottle>], 
+    [<fluid:minecraft:water> * 250], 
+    2000
+);
+
+<recipetype:create:mixing>.addRecipe("dandelion_tea_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersrespite:dandelion_tea>], 
+    [<item:minecraft:dandelion>, <tag:items:farmersrespite:tea_leaves>, <item:minecraft:glass_bottle>], 
+    [<fluid:minecraft:water> * 250], 
+    2000
+);
+
+<recipetype:create:mixing>.addRecipe("purulent_tea_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersrespite:purulent_tea>], 
+    [<tag:items:forge:crops/nether_wart>, <item:minecraft:fermented_spider_eye>, <item:minecraft:glass_bottle>], 
+    [<fluid:minecraft:water> * 250], 
+    2000
+);
+
+<recipetype:create:mixing>.addRecipe("coffee_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersrespite:coffee>], 
+    [<item:farmersrespite:coffee_beans> * 2, <item:minecraft:glass_bottle>], 
+    [<fluid:minecraft:water> * 250], 
+    2000
+);
+
+<recipetype:create:mixing>.addRecipe("tea_curry_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersrespite:tea_curry>], 
+    [<item:farmersrespite:yellow_tea_leaves> * 2, <tag:items:forge:raw_chicken>, <tag:items:forge:crops/cabbage>, <tag:items:forge:crops/onion>, <tag:items:forge:grain/rice>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
+
+<recipetype:create:mixing>.addRecipe("blazing_chili_from_mixer", 
+    <constant:create:heat_condition:heated>, 
+    [<item:farmersrespite:blazing_chili>], 
+    [<item:minecraft:blaze_powder> * 2, <tag:items:forge:crops/nether_wart> * 2, <item:farmersrespite:coffee_beans>, <tag:items:forge:raw_beef>, <item:minecraft:bowl>], 
+    null, 
+    200
+);
 //Spout (filler) recipes
 <recipetype:create:filling>.addRecipe("hot_cocoa_from_spout", <item:farmersdelight:hot_cocoa>, <item:minecraft:glass_bottle>, <fluid:create:chocolate> * 250, 200);
 
@@ -217,3 +297,7 @@ import mods.create.DeployerApplicationManager;
 <recipetype:create:deploying>.addRecipe("apple_pie_slice_from_deployer", <item:farmersdelight:apple_pie>, <tag:items:forge:tools/knives>, [<item:farmersdelight:apple_pie_slice> * 4]);
 <recipetype:create:deploying>.addRecipe("sweet_berry_cheesecake_slice_from_deployer", <item:farmersdelight:sweet_berry_cheesecake>, <tag:items:forge:tools/knives>, [<item:farmersdelight:sweet_berry_cheesecake_slice> * 4]);
 <recipetype:create:deploying>.addRecipe("chocolate_pie_slice_from_deployer", <item:farmersdelight:chocolate_pie>, <tag:items:forge:tools/knives>, [<item:farmersdelight:chocolate_pie_slice> * 4]);
+<recipetype:create:deploying>.addRecipe("coffee_beans_from_deployer", <item:farmersrespite:coffee_berries>, <tag:items:forge:tools/knives>, [<item:farmersrespite:coffee_beans>]);
+<recipetype:create:deploying>.addRecipe("rose_hips_from_deployer", <item:minecraft:rose_bush>, <tag:items:forge:tools/knives>, [<item:farmersrespite:rose_hips> * 2]);
+<recipetype:create:deploying>.addRecipe("coffee_cake_slice_from_deployer", <item:farmersrespite:coffee_cake>, <tag:items:forge:tools/knives>, [<item:farmersrespite:coffee_cake_slice> * 7]);
+<recipetype:create:deploying>.addRecipe("rose_hip_pie_slice_from_deployer", <item:farmersrespite:rose_hip_pie>, <tag:items:forge:tools/knives>, [<item:farmersrespite:rose_hip_pie_slice> * 4]);
