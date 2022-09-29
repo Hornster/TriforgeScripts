@@ -1,7 +1,5 @@
 import crafttweaker.api.item.IItemStack;
 
-<recipetype:create:pressing>.addRecipe("beef_patties", [<item:farmersdelight:minced_beef> * 2], <item:minecraft:beef>, 200);// Press Beef into Beef Patties. Coz I like Borgers
-
 val endremeyes = [
     <item:endrem:black_eye>,
     <item:endrem:cold_eye>,
