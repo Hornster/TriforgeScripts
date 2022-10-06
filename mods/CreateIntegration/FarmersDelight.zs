@@ -4,9 +4,6 @@ import mods.create.MixingManager;
 import mods.create.FillingManager;
 import mods.create.DeployerApplicationManager;
 
-//Press reicpes
-<recipetype:create:pressing>.addRecipe("beef_patties_from_press", [<item:farmersdelight:minced_beef> * 2], <item:minecraft:beef>, 200);// Press Beef into Beef Patties. Coz I like Borgers - Vera
-
 //Mixer recipes
 <recipetype:create:mixing>.addRecipe("apple_cider_from_mixer", 
     <constant:create:heat_condition:heated>, 
